@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Calculator, Package, Search, Shield, TrendingUp, Clock, CheckCircle, ArrowRight, Star, Menu, X } from 'lucide-react'
+import { Calculator, Package, Search, Shield, TrendingUp, Clock, CheckCircle, ArrowRight } from 'lucide-react'
 
 const FEATURES = [
   { icon: Calculator, title: 'Calculadora de Tributos', desc: 'Aranceles GA, IVA e ICE calculados al instante según normativa boliviana 2026.' },

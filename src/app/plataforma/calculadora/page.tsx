@@ -4,7 +4,7 @@ export const dynamic = 'force-dynamic'
 
 import { useState, useEffect, useCallback } from 'react'
 import { createClient } from '@/lib/supabase'
-import { Search, Loader2, BookmarkPlus, ChevronDown, X } from 'lucide-react'
+import { Search, Loader2, BookmarkPlus, X } from 'lucide-react'
 
 // ── Constantes aduaneras (se sobreescriben desde Supabase) ──
 let IVA_TASA       = 0.1494
